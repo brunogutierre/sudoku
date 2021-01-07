@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Sudoku</title>
+
+        <script type="text/javascript" src="base/jogos_sudoku.js"></script>
+        <script type="text/javascript" src="js/init.js"></script>
+				<script type="text/javascript" src="js/anotacoes.js"></script>
+				<script type="text/javascript" src="js/pause.js"></script>
+				<script type="text/javascript" src="js/voltar.js"></script>
+				<script type="text/javascript" src="js/konami.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+
+    <body onload="init()" id="body">
+      <table class="TabelaDif">
+        <tr>
+          <td style="width: 30px;">
+            <img border="0" src="img/facil_des.png" alt="fac" id="imgFac">
+          </td>
+          <td style="width: 170px;">Fácil</td>
+
+          <td style="width: 30px;">
+            <img border="0" src="img/normal_des.png" alt="med" id="imgMed">
+          </td>
+          <td style="width: 140px;">Médio</td>
+        </tr>
+
+        <tr>
+          <td style="width: 30px;">
+            <img border="0" src="img/dificil_des.png" alt="dif" id="imgDif">
+          </td>
+          <td style="width: 170px;">Difícil</td>
+
+          <td style="width: 30px;">
+            <img border="0" src="img/impossivel_des.png" alt="imp" id="imgImp">
+          </td>
+          <td style="width: 140px;">Insano</td>
+        </tr>
+      </table>
+
+      <br>
+
+      <table id="tabelaSudoku"></table>
+
+      <br>
+
+      <table class="TabelaInfo">
+        <tr>
+          <td align="center" id="tdStatus">
+          </td>
+
+          <td align="left" id="tdTextoStatus">
+          </td>
+
+          <td align="right" id="tdTempo">
+          </td>
+					
+					<td align="right" id="tdIcoPause" style="width: 34px;">
+						<img border="0" src="img/pause_2.png" alt="pause" id="imgPause">
+					</td>
+        </tr>
+      </table>
+    </body>
+</html>
