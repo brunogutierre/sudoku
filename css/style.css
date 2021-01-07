@@ -1,0 +1,86 @@
+root { 
+  display: block;
+}
+
+body {
+  font-family: Verdana;
+	margin: 0px;
+}
+
+.TabelaInfo {
+  margin: auto;
+  width: 370px;
+
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.TabelaDif {
+  margin: auto;
+  width: 370px;
+	margin-top: 20px;
+
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.TabelaSudoku {
+  margin: auto;
+  margin-top: 40px;
+}
+
+.TabelaSudoku td {
+  width: 40px;
+  height: 40px;
+
+  padding: 0px;
+
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+
+  border: 1px solid #555;
+}
+
+.InputSudoku {
+  width: 34px;
+  height: 34px;
+
+  padding: 0px;
+  margin: 0px;
+
+  font-size: 22px;
+  text-align: center;
+  vertical-align: middle;
+
+  font-weight: bolder;
+}
+
+.IconeStatus {
+  border: 2px solid black;
+  height: 15px;
+  width: 15px;
+}
+
+.DivAnotacao {
+	height: 12px;
+	width: 12px;
+	border: 1px solid black;
+		
+	background: #FFF;
+	font-size: 10px;
+	text-align: center;
+	vertical-align: middle;
+	
+	z-index: 1000;
+}
+
+.BtUnpause {
+	height: 64px;
+	width: 64px;
+	
+	margin: auto;
+	cursor: pointer;
+	
+	position: relative;
+}
